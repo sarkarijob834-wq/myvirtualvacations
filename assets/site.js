@@ -1,0 +1,1 @@
+document.querySelectorAll("header nav a").forEach(function(a){if(a.pathname===location.pathname&&!a.hash)a.setAttribute("aria-current","page")});
